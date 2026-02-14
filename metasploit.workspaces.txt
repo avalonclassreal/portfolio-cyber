@@ -1,0 +1,19 @@
+Running the 'init' command for the database:
+Existing database found, attempting to start it
+Starting database at /home/matrix/snap/metasploit-framework/common/.msf4/db...waiting for server to start..... done
+server started
+[1m[32msuccess[0m[0m
+[?1034h[4mmsf[0m [0m>     Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> Interrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> ccInterrupt: use the 'exit' command to quit
+[4mmsf[0m [0m> cetsd
