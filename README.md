@@ -32,3 +32,26 @@ sudo ./ipfix.sh
 MAC: 6a:db:90:b7:93:be → 76:5d:4f:c5:4f:67
 IP: 10.218.34.96 → 10.218.34.240
 PING OK 
+# Portfolio CyberSec - Nantes 2026
+
+[![Matrix](https://img.shields.io/badge/Matrix-Cyber%20Nantes-red)](https://github.com/avalonclassreal)
+
+## Arsenal Pentest (7 outils PRO)
+
+| Script | Mission | Taille |
+|--------|---------|--------|
+| `nmap_stealth.sh` | Reconnaissance furtive | 689B |
+| `nmap_ports_final.sh` | Scan ports complet | 378B |
+| `enum_users.sh` | Énumération utilisateurs | 303B |
+| `check_postgres.sh` | Audit PostgreSQL | 251B |
+| `scan_android.sh` | Pentest Android | 241B |
+| `ipfix.sh` | Netflow IPFIX | 744B |
+| `update_auto.sh` | Auto-update outils | 119B |
+
+## Preuves Lab Réelles
+
+| Mission | Preuve | IP Cible |
+|---------|--------|----------|
+| Scan Nmap Complet | `nmap-full-10.113.234.21.txt` | `10.113.234.21` |
+| Sweep Récent | **PING OK** | `10.218.34.96 → 10.218.34.240` |
+| Metasploit Exploits | `metasploit/exploits/scan/` | Lab réel |
