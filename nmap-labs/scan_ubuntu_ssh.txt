@@ -1,0 +1,6 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-16 20:06 CET
+[stats lines]
+Nmap scan report for 10.113.234.21
+Host is up (0.00039s latency).
+Not shown
+
