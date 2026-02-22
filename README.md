@@ -19,7 +19,7 @@ atrix@matrix-X550CA:~/portfolio-cyber$ cat >> README.md << 'EOF'
 
 ## Fonctionnalités
 - MAC spoofing aléatoire (`macchanger -r`)
-- IP statique randomisée (`10.218.34.50-249/24`)
+- IP statique randomisée (`[IP_MASQUEE]-249/24`)
 - Gateway/DNS persistant
 - Vérification connexion (`ping google.com`)
 
@@ -30,7 +30,7 @@ sudo ./ipfix.sh
 
 ## Démo Réelle
 MAC: 6a:db:90:b7:93:be → 76:5d:4f:c5:4f:67
-IP: 10.218.34.96 → 10.218.34.240
+IP: [IP_MASQUEE] → [IP_MASQUEE]
 PING OK 
 # Portfolio CyberSec - Nantes 2026
 
@@ -52,9 +52,26 @@ PING OK
 
 | Mission | Preuve | IP Cible |
 |---------|--------|----------|
-| Scan Nmap Complet | `nmap-full-10.113.234.21.txt` | `10.113.234.21` |
-| Sweep Récent | **PING OK** | `10.218.34.96 → 10.218.34.240` |
+| Scan Nmap Complet | `nmap-full-[IP_MASQUEE].txt` | `[IP_MASQUEE]` |
+| Sweep Récent | **PING OK** | `[IP_MASQUEE] → [IP_MASQUEE]` |
 | Metasploit Exploits | `metasploit/exploits/scan/` | Lab réel |
 
 ## NOUVEAU 20/02/2026
 **'cyber_tor.sh'** -TOR +  Nettoyage traces
+
+
+# Portfolio Cybersécurité - Avalon
+
+## Projets
+
+### Nmap Network Reconnaissance
+Dossier : `nmap-labs/`
+
+**Labs réalisés :**
+- Scan localhost : ports/services (SSH, HTTP, Samba, MySQL)
+- Scan réseau local : 70+ hôtes détectés (ping scan -sn)
+
+**Commandes utilisées :**
+```bash
+nmap -sT -oN localhost.txt localhost
+nmap -sn -oN reseau-local.txt 192.168.1.0/24
